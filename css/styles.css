@@ -98,7 +98,7 @@ html {
     }
     
     .desc {
-        padding: 35px 0;
+        padding: 30px 0;
     }
     
       @keyframes scroll {
@@ -165,12 +165,34 @@ html {
         justify-content: space-around;
         align-items: center;
         padding: 10px;
+        bottom: 0;
       }
 
       .social {
         margin: 0 10px;
         width: 40px;
         height: auto;
+      }
+
+      .experience {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0 20px 0;
+      }
+
+      .project-exp {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+      }
+
+      .circle {
+        background-color: #8a3cfd;
+        border-radius: 50%;
+        padding: 5px 3px;
+        margin: 0 4px;
       }
 }
 

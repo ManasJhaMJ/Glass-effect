@@ -8,7 +8,7 @@
 }
 
 html {
-    background-color: #000;
+    background: url(../images/bg.png) repeat center center/cover;
     color: #fff;
     margin: 0;
     padding: 0;
@@ -101,6 +101,7 @@ html {
     
     .desc {
         padding: 30px 0;
+        font-weight: 400;
     }
     
       @keyframes scroll {
@@ -237,6 +238,22 @@ html {
             }
             100% {
             transform: translateY(0);
+            }
+        }
+
+        .mail-img {
+            animation: tilt 1s ease-in-out infinite;
+        }
+
+        @keyframes tilt {
+            0% {
+            transform: rotate(-10deg);
+            }
+            50% {
+            transform: rotate(10deg);
+            }
+            100% {
+            transform: rotate(-10deg);
             }
         }
 

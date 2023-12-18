@@ -12,6 +12,7 @@ html {
     color: #fff;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .background-video {
@@ -159,6 +160,7 @@ html {
 
       #projects {
         padding-bottom: 30px;
+        text-align: center;
       }
 
       .socials {
@@ -195,6 +197,52 @@ html {
         padding: 5px 3px;
         margin: 0 4px;
       }
+
+      .mail {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        
+      }
+
+      .mail-cta {
+        width: 100%;
+        background-color: transparent;
+        border: none;
+      }
+
+      .mail-cta a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+
+      .mail-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: move 1s ease-in-out infinite;
+        padding: 0 10px;
+      }
+
+        @keyframes move {
+            0% {
+            transform: translateY(0);
+            }
+            50% {
+            transform: translateX(-10px);
+            }
+            100% {
+            transform: translateY(0);
+            }
+        }
+
+        .mail-text h3 {
+            padding: 0 3px;
+        }
 }
 
 

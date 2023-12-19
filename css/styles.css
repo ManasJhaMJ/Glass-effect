@@ -8,7 +8,7 @@
 }
 
 html {
-    background: url(../images/bg.png) repeat center center/cover;
+    background: url(../images/bg.png) no-repeat center center;
     color: #fff;
     margin: 0;
     padding: 0;
@@ -100,7 +100,7 @@ html {
     }
     
     .desc {
-        padding: 30px 0;
+        padding: 25px 0 18px 0;
         font-weight: 400;
     }
     
@@ -160,7 +160,7 @@ html {
       }
 
       #projects {
-        padding-bottom: 30px;
+        padding-bottom: 17px;
         text-align: center;
       }
 
